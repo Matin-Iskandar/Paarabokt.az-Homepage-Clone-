@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body.light {
+    background-color: white;
+    color: black;
+  }
+  
+  body.dark {
+    background-color: black;
+    color: white;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s, color 0.5s;
+  }
+  
+  .toggle-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .toggle-button:hover {
+    background-color: #555;
+  }
+  

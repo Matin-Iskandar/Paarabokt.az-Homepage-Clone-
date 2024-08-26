@@ -1,0 +1,239 @@
+.footer {
+  background: var(--Main-Colors-Black, #232323);
+  color: #fff;
+  padding: 40px 16px;
+}
+.footer .footer-logo {
+  margin-bottom: 32px;
+}
+.footer .footer-main .first-part-footer {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer-main .first-part-footer .about {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.footer .footer-main .first-part-footer .about h2 {
+  color: var(--Main-Colors-white, #fff);
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+.footer .footer-main .first-part-footer .about a {
+  color: #919191;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+.footer .footer-main .first-part-footer .footer-links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  padding: 24px 0 40px;
+}
+.footer .footer-main .first-part-footer .footer-links a {
+  color: var(--Main-Colors-white, #fff);
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+.footer .footer-main .contacts .call-to-us h2 {
+  color: var(--Main-Colors-white, #fff);
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  padding-bottom: 16px;
+}
+.footer .footer-main .contacts .call-to-us div {
+  display: flex;
+  -moz-column-gap: 6px;
+       column-gap: 6px;
+  margin-bottom: 24px;
+}
+.footer .footer-main .contacts .call-to-us div h5 {
+  color: var(--Main-Colors-white, #fff);
+  /* Regular-400/button */
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+.footer .footer-main .contacts .call-to-us div img {
+  width: 24px;
+  height: 24px;
+}
+.footer .footer-main .contacts .socials h2 {
+  color: var(--Main-Colors-white, #fff);
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin-bottom: 16px;
+}
+.footer .footer-main .contacts .socials .social-icons img {
+  margin-right: 32px;
+}
+.footer hr {
+  margin: 32px 0;
+}
+.footer .copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .copyright p {
+  color: #919191;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+.footer .copyright h3 {
+  color: #919191;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+
+@media (min-width: 1200px) {
+  .footer {
+    background: var(--Main-Colors-Black, #232323);
+    color: #fff;
+    padding: 40px 60px;
+  }
+  .footer .footer-logo {
+    margin-bottom: 32px;
+    width: 200px;
+    height: 44px;
+    flex-shrink: 0;
+  }
+  .footer .footer-main {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer .footer-main .first-part-footer {
+    display: flex;
+    flex-direction: row;
+    -moz-column-gap: 32px;
+         column-gap: 32px;
+  }
+  .footer .footer-main .first-part-footer .about {
+    display: flex;
+    row-gap: 8px;
+  }
+  .footer .footer-main .first-part-footer .about h2 {
+    color: var(--Main-Colors-white, #fff);
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+  }
+  .footer .footer-main .first-part-footer .about a {
+    color: #919191;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+  }
+  .footer .footer-main .first-part-footer .footer-links {
+    display: flex;
+    flex-direction: row;
+    -moz-column-gap: 32px;
+         column-gap: 32px;
+    padding-top: 0;
+  }
+  .footer .footer-main .first-part-footer .footer-links a {
+    color: var(--Main-Colors-white, #fff);
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+  }
+  .footer .footer-main .contacts {
+    display: flex;
+    -moz-column-gap: 32px;
+         column-gap: 32px;
+  }
+  .footer .footer-main .contacts .call-to-us h2 {
+    color: var(--Main-Colors-white, #fff);
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    padding-bottom: 16px;
+  }
+  .footer .footer-main .contacts .call-to-us div {
+    display: flex;
+    -moz-column-gap: 6px;
+         column-gap: 6px;
+    margin-bottom: 24px;
+  }
+  .footer .footer-main .contacts .call-to-us div h5 {
+    color: var(--Main-Colors-white, #fff);
+    /* Regular-400/button */
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+  }
+  .footer .footer-main .contacts .call-to-us div img {
+    width: 24px;
+    height: 24px;
+  }
+  .footer .footer-main .contacts .socials h2 {
+    color: var(--Main-Colors-white, #fff);
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin-bottom: 16px;
+  }
+  .footer .footer-main .contacts .socials .social-icons img {
+    margin-right: 32px;
+  }
+  .footer hr {
+    margin: 32px 0;
+  }
+  .footer .copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer .copyright p {
+    color: #919191;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+  }
+  .footer .copyright h3 {
+    color: #919191;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+  }
+}/*# sourceMappingURL=style.css.map */
